@@ -1,0 +1,19 @@
+/* Topbar with flexible column widgets */
+.site-header {padding-top:1em}
+
+.topbar-widgets-container {background:#f0f0f0}
+.topbar-widgets #wp-calendar td,.topbar-widgets #wp-calendar th {padding:.236em;text-align:center}
+
+.topbar-widgets{padding-top:0;border-bottom:0 none}
+.topbar-widgets::after,.topbar-widgets::before{content:'';display:table}
+.topbar-widgets::after{clear:both}
+.topbar-widgets .widget-title {display:none}
+.topbar-widgets.col-2 .block{width:47.8260869565%;float:left;margin-right:4.347826087%}
+.topbar-widgets.col-2 .block.topbar-widget-2{float:right;margin-right:0}
+.topbar-widgets.col-3 .block{width:30.4347826087%;float:left;margin-right:4.347826087%}
+.topbar-widgets.col-3 .block.topbar-widget-3{float:right;margin-right:0}
+.topbar-widgets.col-4 .block{width:21.7391304348%;float:left;margin-right:4.347826087%}
+.topbar-widgets.col-4 .block.topbar-widget-4{float:right;margin-right:0}
+
+.topbar-widgets .textwidget p {padding:0; margin:0}
+.topbar-widgets .widget {margin:0}
